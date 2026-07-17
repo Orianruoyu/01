@@ -6,10 +6,19 @@
     <meta name="description" content="选择目的地和个人情况，获得个性化材料清单、办理步骤与官方核验入口。" />
     <meta name="theme-color" content="#064a86" />
     <title>签寻 VisaFind｜你的个性化签证准备清单</title>
-    <link rel="stylesheet" href="./styles-v6.css" />
+    <link rel="stylesheet" href="./styles-v7.css" />
   </head>
   <body>
     <div id="root"></div>
-    <script src="./app-v6.js"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "react": "https://esm.sh/react@19.2.0",
+          "react/jsx-runtime": "https://esm.sh/react@19.2.0/jsx-runtime",
+          "react-dom/client": "https://esm.sh/react-dom@19.2.0/client"
+        }
+      }
+    </script>
+    <script type="module" src="./app-v7-lite.js"></script>
   </body>
 </html>
